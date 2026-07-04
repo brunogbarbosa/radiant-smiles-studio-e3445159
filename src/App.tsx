@@ -257,7 +257,7 @@ function Hero() {
         <img
           src={IMG.hero}
           alt="Dra. Thaís Castro"
-          style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }}
+          style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center bottom" }}
         />
         <svg
           width="140"
