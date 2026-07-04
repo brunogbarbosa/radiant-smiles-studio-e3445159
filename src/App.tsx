@@ -577,10 +577,10 @@ function Resultados() {
   const ref = useReveal();
   const items = [
     { before: IMG.ba1, after: IMG.ba1, proc: "Clareamento Dental", split: true },
-    { before: IMG.ba2, after: IMG.ba2, proc: "Alinhamento & Estética", split: true },
-    { before: IMG.ba3, after: IMG.ba3, proc: "Reabilitação Estética", split: true },
-    { before: IMG.ba4, after: IMG.ba4, proc: "Prótese Fixa", split: true },
-    { before: IMG.face, after: IMG.face, proc: "Harmonização Facial", split: true },
+    { before: IMG.ba2, after: IMG.ba2, proc: "Clareamento Dental", split: true },
+    { before: IMG.ba3, after: IMG.ba3, proc: "Clareamento Dental", split: true },
+    { before: IMG.ba4, after: IMG.ba4, proc: "Clareamento Dental", split: true },
+    { before: IMG.face, after: IMG.face, proc: "Botox / Toxina Botulínica", split: true },
     { before: IMG.lips, after: IMG.lips, proc: "Preenchimento Labial", split: true },
   ];
   return (
