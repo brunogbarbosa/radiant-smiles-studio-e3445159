@@ -268,6 +268,7 @@ function Hero() {
           <path d="M20 120 A100 100 0 0 1 120 20" stroke="var(--honey)" strokeWidth="1" fill="none" />
         </svg>
         <div
+          className="hero-name"
           style={{
             position: "absolute",
             bottom: 32,
