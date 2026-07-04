@@ -129,8 +129,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .cta-line.visible { width: 80px; }
 
 @media (max-width: 900px) {
-  .hero-visual { position: relative !important; width: 100% !important; height: 58vh !important; min-height: 440px !important; clip-path: none !important; }
-  .hero-img { object-position: center bottom !important; }
+  .hero-visual { position: relative !important; width: 100% !important; height: auto !important; min-height: 0 !important; clip-path: none !important; display: block !important; }
+  .hero-img { width: 100% !important; height: auto !important; object-fit: contain !important; object-position: center top !important; display: block !important; }
   .hero-text { position: relative !important; width: 100% !important; padding: 40px 24px !important; top: auto !important; left: auto !important; transform: none !important; }
   .hero-section { display: flex; flex-direction: column-reverse; height: auto !important; min-height: 100vh; }
   .no-mobile { display: none !important; }
