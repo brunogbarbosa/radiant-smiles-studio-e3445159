@@ -2,15 +2,15 @@ import { useEffect, useRef, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 
 const IMG = {
-  hero: "/__l5e/assets-v1/65963398-d7fb-4b2c-960c-7d190e12568c/image.png",
-  about: "/__l5e/assets-v1/374ae66b-4714-40be-890f-5580f97b0332/image-10.png",
-  office: "/__l5e/assets-v1/6bf7d4ac-14b5-4df9-b753-08629e60473d/image-9.png",
-  ba1: "/__l5e/assets-v1/1786b43d-4a44-444a-a82b-d861780df0ee/image-3.png",
-  ba2: "/__l5e/assets-v1/6520b00d-003f-4232-a050-e15cb4840070/image-4.png",
-  ba3: "/__l5e/assets-v1/50f152df-3409-4b4f-b10b-d5c1c197b246/image-7.png",
-  ba4: "/__l5e/assets-v1/3e6d7777-b24a-469e-a84e-cd6578a9ba3d/image-2.png",
-  face: "/__l5e/assets-v1/74843a85-1f4c-4efc-9d4e-9f7f73845868/image-5.png",
-  lips: "/__l5e/assets-v1/9f87b5ed-467f-48ad-baa8-93394c556834/image-6.png",
+  hero: "/assets/site/hero.png",
+  about: "/assets/site/about.png",
+  office: "/assets/site/office.png",
+  ba1: "/assets/site/before-after-1.png",
+  ba2: "/assets/site/before-after-2.png",
+  ba3: "/assets/site/before-after-3.png",
+  ba4: "/assets/site/before-after-4.png",
+  face: "/assets/site/face.png",
+  lips: "/assets/site/lips.png",
 };
 
 const AGENDA = "https://wa.me/5581998771970?text=Ol%C3%A1%20Dra.%20Tha%C3%ADs%2C%20gostaria%20de%20agendar%20uma%20consulta.";
@@ -249,12 +249,12 @@ function Hero() {
           top: 0,
           height: "100vh",
           width: "42%",
-          clipPath: "polygon(12% 0%, 100% 0%, 100% 100%, 0% 100%)",
           background: "linear-gradient(150deg, var(--warm) 0%, var(--sand) 100%)",
           overflow: "hidden",
         }}
       >
         <img
+          className="hero-img"
           src={IMG.hero}
           alt="Dra. Thaís Castro"
           style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center bottom" }}
